@@ -8,7 +8,7 @@ permalink: /getting-started/
 ### Getting Started
 
 Prerequisites:
-* You have installed GuideFrame as per the instructions in the [installation](guideframe-docs-test/installation/) section of these docs.
+* You have installed GuideFrame as per the instructions in the [installation](/installation/) section of these docs.
 * You have cloned or forked the GuideFrame template repository located [here](https://github.com/chipspeak/GuideFrame-Template).
 
 

@@ -3,7 +3,7 @@ title: GuideFrame Markdown Example
 layout: default
 nav_order: 2
 parent: Samples
-permalink: guideframe-md-example
+permalink: /guideframe-md-example/
 ---
 
 # GuideFrame Markdown Example

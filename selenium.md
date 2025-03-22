@@ -3,7 +3,7 @@ title: Selenium
 layout: default
 nav_order: 4
 parent: Library
-permalink: selenium
+permalink: /selenium/
 ---
 
 # Selenium

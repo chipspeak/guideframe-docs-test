@@ -3,7 +3,7 @@ title: Utils
 layout: default
 nav_order: 1
 parent: Library
-permalink: utils
+permalink: /utils/
 ---
 
 # Utils

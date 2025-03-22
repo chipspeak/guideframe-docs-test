@@ -3,7 +3,7 @@ title: GuideFrame Workflow Example
 layout: default
 nav_order: 3
 parent: Samples
-permalink: guideframe-action-example
+permalink: /guideframe-action-example/
 ---
 
 # GuideFrame Workflow Example

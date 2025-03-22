@@ -3,7 +3,7 @@ title: GuideFrame Script Example
 layout: default
 nav_order: 1
 parent: Samples
-permalink: guideframe-py-example
+permalink: /guideframe-py-example/
 ---
 
 # GuideFrame Script Example

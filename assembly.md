@@ -8,7 +8,6 @@ permalink: assembly
 
 # Assembly
 The assembly file contains the functions which act to combine the various files created during the GuideFrame pipeline. The following section will list each function contained within this file and provide some insight into its use and syntax.
-___
 
 ### `assemble_audio_video()`
 ```python
@@ -33,7 +32,6 @@ def assemble_audio_video(video_file, audio_file, output_file):
         print(f"Missing video or audio file: {video_file}, {audio_file}")
 ```
 This function takes a `video_file`, `audio_file` and `output_file` as arguments. It checks for these files before using the `ffmpeg` python package to combine them into a single file, named by the passed argument. This file then contains the combined audio and video for a single `guide_step`.
-___
 
 ### `combine_all_videos()`
 ```python
@@ -61,7 +59,6 @@ def combine_all_videos(output_files, final_output):
         os.remove(file_list)
 ```
 This function takes `output_files` and `final_output` as arguments. It takes the array of passed files and writes them to a newly created text file called `file_list`. The `concat` function from `ffmpeg` is used with the `file_list` passed. This is the `input` portion of the command before the `output` portion uses the `final_output` name for outputted file name. 
-___
 
 ### `assemble()`
 ```python

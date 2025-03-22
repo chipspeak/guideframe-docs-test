@@ -8,7 +8,7 @@ permalink: /video/
 
 # Video
 The video file contains functions designed to provide start and stop the `ffmpeg` recordings used to capture each GuideFrame step. The following section will list each function contained within this file and provide some insight into its use and syntax.
-___
+
 
 ### `start_ffmpeg_recording()`
 ```python
@@ -34,7 +34,7 @@ This function is responsible for starting the `ffmpeg` recording which will be u
 It takes the `output_file`, `input_format` and `input_display` variables in order to account for the environment differences in command flags and the desired final file name.
 
 It then uses `subprocess` to run the `ffmpeg` command, passing the array of flags outlined above.
-___
+
 
 ### `stop_ffmpeg_recording()`
 ```python

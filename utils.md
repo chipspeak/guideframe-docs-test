@@ -8,7 +8,7 @@ permalink: /utils/
 
 # Utils
 The utils file contains functions designed to provide vital variables to other aspects of the GuideFrame logic in addition to outlining the logic of the key `guide_step`. The following section will list each function contained within this file and provide some insight into its use and syntax.
-___
+
 
 ### `get_env_settings()`
 ```python
@@ -37,7 +37,7 @@ def get_env_settings():
         sys.exit(1)
 ```
 This function takes the system argument provided to the GuideFrame script and sets vital environmental variables based on this. This function is key in accounting for the variance in file paths, display type etc.
-___
+
 
 ### `extract_md_filename()`
 ```python
@@ -46,7 +46,7 @@ def extract_md_filename():
     return script_name.replace(".py", ".md")
 ```
 This function extracts the GuideFrame scripts name from the system argument before replacing the `.py` extension with `.md`. This is performed in order to ascertain the title of the GuideFrame scripts matching markdown file. The markdown file MUST match the GuideFrame scripts title or the core logic will fail.
-___
+
 
 ### `extract_script_name()`
 ```python
@@ -55,7 +55,7 @@ def extract_script_name():
     return script_name.replace(".py", "")
 ```
 This function serves a similar purpose and shares logic with `extract_md_filename()`. It is used to drop the `.py` extension in order to grab the scripts name for final output file naming.
-___
+
 
 ### ```guide_step()```
 ```python

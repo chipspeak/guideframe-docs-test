@@ -8,9 +8,8 @@ permalink: /getting-started/
 ### Getting Started
 
 Prerequisites:
-* You have installed GuideFrame as per the instructions in the [installation](/installation/) section of these docs.
+* You have installed GuideFrame as per the instructions in the [installation](guideframe-docs-test/installation/) section of these docs.
 * You have cloned or forked the GuideFrame template repository located [here](https://github.com/chipspeak/GuideFrame-Template).
-___
 
 
 ### GuideFrame Script
@@ -34,11 +33,9 @@ Within the above example, '8' is passed as the step argument. This always corres
 `lambda` allows you to pass a function from the selenium-sdk. A wide range of functions are available within this SDK and are detailed [here](/selenium/).
 
 Finally, each `guide_step` features a default argument for `order`. The default is "action-after-vo" but in the above example we've used the other option to place our voiceover after the interaction. This allows you to experiment with the video's pacing as you see fit.
-___
 
 ### GuideFrame Markdown
 The [GuideFrame Markdown Example](/guideframe-md-example/) should serve to highlight the simplicity of this portion of GuideFrame. A user need only create a `## Step n` heading and place the text for that step underneath. If this format is adhered to, it will be detected appropriately by GuideFrame and used to create the voiceover.
-___
 
 ### GuideFrame Workflow
 The [GuideFrame Workflow Example](/guideframe-action-example/) is triggered on push events and works to run the GuideFrame script on a GitHub runner before uploading the result as an artefact. The logic of the

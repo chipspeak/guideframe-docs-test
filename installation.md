@@ -2,7 +2,7 @@
 title: Installation
 layout: default
 nav_order: 2
-permalink: /installation/
+permalink: guideframe-docs-test/installation/
 ---
 
 # How to Install GuideFrame
@@ -16,8 +16,8 @@ The following section will walk a user through the installation/setup of GuideFr
 
 GuideFrame is intended for use as part of a GitHub CI/CD pipeline. This involves featuring a GuideFrame script within your repository along with an appropriate GitHub action triggering it. 
 
-In the interest of illustrating this, a template repository has been created and can be found here:
-https://github.com/chipspeak/GuideFrame-Template
+In the interest of illustrating this, a template repository has been created and can be found [here](
+https://github.com/chipspeak/GuideFrame-Template).
 
 ## Local Installation
 GuideFrame is packaged and available on pypi. It can be installed using:

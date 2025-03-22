@@ -8,7 +8,6 @@ permalink: audio
 
 # Audio
 The audio file contains functions designed to provide the voiceover for each GuideFrame step. It interacts with both `gTTS` and markdown in order to create these mp3 files. The following section will list each function contained within this file and provide some insight into its use and syntax.
-___
 
 ### `export_gtts()`
 ```python
@@ -18,7 +17,6 @@ def export_gtts(text, file_name):
     print("Exported", file_name)
 ```
 This function uses the `gTTS` python package in order to generate audio based on the user-prescribed text. It takes the `text` argument and passes it, along with a `file_name` to the native `gTTS` functions. This then writes an audio file, with the passed name and featuring the prescribed text, to the local directory.
-___
 
 ### `sleep_based_on_vo()`
 ```python
@@ -28,7 +26,6 @@ ___
     time.sleep(audio.info.length)
 ```
 This function is designed to prevent the main script's interactions from accelerating beyond the recorded voiceover. It achieves this by taking the `file_name` of the .mp3 file created during the above function. It then parses the length of this audio file before using the `sleep` function from the `time` package to sleep based on the length found in seconds. This ensures that an interaction cannot occur until the requisite voiceover clip has completed.
-___
 
 ### `pull_vo_from_markdown()`
 ```python
@@ -56,7 +53,6 @@ def pull_vo_from_markdown(md_file, step_number):
     return match.group(1).strip() if match else None
 ```
 This function takes the `md_file` and `step_number` as arguments. It uses these to extract the text content of the markdown file by opening it and then using the `re` package to perform a regex parse (outlined in above code comments). This pattern ensures that the text must follow a `##` heading with text matching "Step n*". Provided a match is found, it is then returned.
-___
 
 ### `generate_voiceover()`
 ```python

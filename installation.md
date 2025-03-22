@@ -2,7 +2,7 @@
 title: Installation
 layout: default
 nav_order: 2
-permalink: guideframe-docs-test/installation/
+permalink: /installation/
 ---
 
 # How to Install GuideFrame

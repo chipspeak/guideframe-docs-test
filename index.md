@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# ![image](assets/images/guideframelogo.png)
+![image](assets/images/guideframelogo.png)
 
 GuideFrame is a tool to allow software developers to produce detailed walkthrough videos of their projects using python code. It comes in the form of a python package which leverages numerous open source technologies. 
 

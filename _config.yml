@@ -7,4 +7,4 @@ url: https://chipspeak.github.io/guideframe-docs-test
 aux_links:
   Template Repository: https://github.com/chipspeak/guideframe-docs-test
 
-logo: /assets/images/guideframelogo.png
+logo: "/assets/images/guideframelogo.png"

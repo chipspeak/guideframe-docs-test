@@ -10,7 +10,7 @@ permalink: /guideframe-code-walkthrough/
 
 The below video serves as a demonstration of GuideFrame's use in a code walkthrough of its own repository. The script used to create this can be seen below in addition to its companion markdown.
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/EZVsS7ulclA?si=e6vvEdKAOXTbeTLe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/EZVsS7ulclA?si=e6vvEdKAOXTbeTLe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## GuideFrame Code Walkthrough Script
 

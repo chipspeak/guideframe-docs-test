@@ -10,10 +10,14 @@ permalink: /guideframe-code-walkthrough/
 
 The below video serves as a demonstration of GuideFrame's use in a code walkthrough of its own repository. The script used to create this can be seen below in addition to its companion markdown.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EZVsS7ulclA?si=e6vvEdKAOXTbeTLe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/EZVsS7ulclA?si=e6vvEdKAOXTbeTLe"
+    frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+  </iframe>
+</div>
 
 ## GuideFrame Code Walkthrough Script
-
 ```python
 
 from guideframe.selenium import * # Moved all selenium functions to external file

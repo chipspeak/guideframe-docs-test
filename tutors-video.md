@@ -1,9 +1,9 @@
 ---
-title: Magento Demo
+title: Tutors Demo
 layout: default
 nav_order: 2
 parent: Demos
-permalink: /magento-video/
+permalink: /tutors-video/
 ---
 
 # Code Walkthrough

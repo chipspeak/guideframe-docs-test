@@ -1,9 +1,9 @@
 ---
-title: GuideFrame Code Walkthrough
+title: Code Demo
 layout: default
 nav_order: 1
-parent: Videos
-permalink: /guideframe-code-walkthrough/
+parent: Demos
+permalink: /code-demo/
 ---
 
 # Code Walkthrough
